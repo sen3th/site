@@ -6,6 +6,9 @@
 body{
     background-color: azure;
     overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -17,7 +20,7 @@ body{
     font-family: 'MANUSCRITE', sans-serif;
     font-weight: normal;
     font-style: italic;
-    font-size: 5vw;
+    font-size: 3rem;
     margin: -1%;
 }
 
@@ -26,7 +29,7 @@ nav {
     padding-left: 2%;
     font-family: 'MANUSCRITE', sans-serif;
     font-weight: bolder;
-    font-size: 2vw;
+    font-size: 1.25rem;
     display: flex;
     gap: 2%;
 }
@@ -38,22 +41,22 @@ nav {
 
 footer {
     text-align: left;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    margin-top: auto;
     width: 100%;
-    padding-left: 1.5
+    padding-left: 0%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 p {
     padding-left: 2%;
     font-family: 'IM FELL FRENCH CANON', serif;
-    font-size: 2vw;
+    font-size: 1.125rem;
     color: rgb(50, 50, 90);
 }
 
 footer p {
-    font-size: 2vw;
+    font-size: 1rem;
     color: rgb(100, 100, 130);
 }
 
@@ -65,6 +68,6 @@ a {
 li {
     list-style-type: circle;
     font-family: 'IM FELL FRENCH CANON', serif;
-    font-size: 2vw;
+    font-size: 1.125rem;
     color: rgb(50, 50, 90);
 }
