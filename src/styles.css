@@ -1,8 +1,70 @@
+::selection {
+    background: rgb(241, 255, 132);
+    color: black;
+}
+
 body{
     background-color: azure;
-
+    overflow-x: hidden;
 }
 
 .header{
-    color: darkblue;
+    padding-left: 2%;
+    padding-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: rgb(70, 70, 129);
+    font-family: 'MANUSCRITE', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 5vw;
+    margin: -1%;
+}
+
+nav {
+    padding: 1%;
+    padding-left: 2%;
+    font-family: 'MANUSCRITE', sans-serif;
+    font-weight: bolder;
+    font-size: 2vw;
+    display: flex;
+    gap: 2%;
+}
+
+.header:hover {
+    color: rgb(67, 28, 69);
+    transition: color 0.5s;
+}
+
+footer {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 1.5
+}
+
+p {
+    padding-left: 2%;
+    font-family: 'IM FELL FRENCH CANON', serif;
+    font-size: 2vw;
+    color: rgb(50, 50, 90);
+}
+
+footer p {
+    font-size: 2vw;
+    color: rgb(100, 100, 130);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 68, 64);
+}
+
+li {
+    list-style-type: circle;
+    font-family: 'IM FELL FRENCH CANON', serif;
+    font-size: 2vw;
+    color: rgb(50, 50, 90);
 }
