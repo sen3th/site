@@ -75,6 +75,10 @@ li {
 }
 
 @media (max-width: 600px) {
+    body {
+        min-height: auto;
+    }
+
     .header {
         font-size: 2rem;
         padding-left: 4%;
@@ -97,6 +101,7 @@ li {
     }
 
     footer {
+        margin-top: 2rem;
         padding-top: 1rem;
     }
 
