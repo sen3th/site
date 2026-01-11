@@ -30,11 +30,16 @@ body{
 nav {
     padding-top: 2.5%;
     padding-left: 2%;
+    padding-right: 2%;
     font-family: 'MANUSCRITE', sans-serif;
     font-weight: bolder;
     font-size: 1.25rem;
     display: flex;
     gap: 2%;
+}
+
+.socials {
+    margin-left: auto;
 }
 
 .header:hover {
