@@ -23,6 +23,8 @@ body{
     font-style: italic;
     font-size: 3rem;
     margin: -1%;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 nav {
