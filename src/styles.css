@@ -25,6 +25,7 @@ body{
     margin: -1%;
     overflow-wrap: break-word;
     word-break: break-word;
+    cursor: default;
 }
 
 nav {
@@ -113,4 +114,13 @@ li {
     footer p {
         font-size: 0.9rem;
     }
+}
+
+/* images */
+
+#email {
+    width: 10rem;
+    height: auto;
+    position: relative;
+    z-index: 10;
 }
