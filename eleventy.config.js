@@ -1,6 +1,7 @@
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles.css");
   eleventyConfig.addPassthroughCopy("src/favicon");
+  eleventyConfig.addPassthroughCopy("src/content");
 
    eleventyConfig.addFilter("date", (dateObj, format = "yyyy-MM-dd") => {
     const d = new Date(dateObj);

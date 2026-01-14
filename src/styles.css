@@ -32,6 +32,7 @@ nav {
     padding-top: 2.5%;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 2%;
     font-family: 'MANUSCRITE', sans-serif;
     font-weight: bolder;
     font-size: 1.25rem;
@@ -54,6 +55,13 @@ footer {
     width: 100%;
     padding-left: 0%;
     padding-top: 2rem;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
 }
 
 p {
@@ -142,21 +150,22 @@ li {
 
 /* images */
 
-#email {
-    width: 10rem;
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    width: 3rem;
     height: auto;
-    position: relative;
-    z-index: 10;
 }
 
 .blinkies {
     display: flex;
-    justify-content: center;
     gap: 0.5rem;
-    padding-bottom: 2rem;
 }
 
 .blinkie {
-    width: 10rem;
+    width: 6rem;
     height: auto;
 }
