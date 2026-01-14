@@ -14,7 +14,7 @@ body{
 
 .header{
     padding-left: 2.5%;
-    padding-top: 1%;
+    padding-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
     color: rgb(70, 70, 129);
@@ -68,9 +68,33 @@ footer p {
     color: rgb(100, 100, 130);
 }
 
-a {
+.nav {
     text-decoration: none;
     color: rgb(3, 68, 64);
+}
+
+.socials {
+    text-decoration: none;
+    color: rgb(80, 80, 120);
+}
+
+.things {
+    text-decoration: none;
+    color: rgb(20, 20, 70);
+}
+
+.posts {
+    text-decoration: none;
+    color: rgb(20, 20, 70);
+}
+
+a {
+    color: rgb(20, 20, 70);
+}
+
+a:hover {
+    color: rgb(67, 28, 69);
+    transition: color 0.5s;
 }
 
 li {
@@ -123,4 +147,16 @@ li {
     height: auto;
     position: relative;
     z-index: 10;
+}
+
+.blinkies {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.blinkie {
+    width: 10rem;
+    height: auto;
 }

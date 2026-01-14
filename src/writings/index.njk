@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 <ul>
   {% for post in collections.writings | reverse %}
     <li>
-      <a href="{{ post.url }}">
+      <a class='posts' href="{{ post.url }}">
         {{ post.data.title }}
       </a>
     </li>
