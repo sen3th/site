@@ -66,6 +66,7 @@ footer {
 
 p {
     padding-left: 2%;
+    padding-right: 2%;
     font-family: 'IM FELL FRENCH CANON', serif;
     font-size: 1.125rem;
     color: rgb(50, 50, 90);
@@ -168,4 +169,12 @@ li {
 .blinkie {
     width: 6rem;
     height: auto;
+}
+
+.postIntro {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'IM FELL FRENCH CANON', serif;
+    font-size: 1rem;
+    color: rgb(50, 50, 90);
 }
