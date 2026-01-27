@@ -6,12 +6,14 @@ eleventyExcludeFromCollections: true
 
 <h1 class="header">Writings</h1>
 
-<ul>
-  {% for post in collections.writings | reverse %}
-    <li>
-      <a class='posts' href="{{ post.url }}">
-        {{ post.data.title }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<nav aria-label="Writings collection">
+  <ul>
+    {% for post in collections.writings | reverse %}
+      <li>
+        <a class='posts' href="{{ post.url }}">
+          {{ post.data.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

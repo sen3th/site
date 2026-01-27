@@ -1,7 +1,9 @@
 ---
+layout: post.njk
 title: The Subverted Hero
 date: 2026-01-11
 ---
+
 <p class='postIntro'>This is an essy that I wrote for the Macbeth unit. It's not based on the original play but the modern simplified version by Sparknotes. The text argues the classic aristotelian notion's imprecision of a tragic hero by using the character of the tragic king, 'Macbeth'. <br><br> (P.S.: Might be a bit corny)</p>
 
 <hr>

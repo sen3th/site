@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to my personal website">
+  <meta name="color-scheme" content="light dark">
   <title>{{ title }}</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,5 +38,19 @@
 
   {% include "footer.njk" %}
 
+  <script>
+    // Hamburger 
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (hamburger) {
+      hamburger.addEventListener('click', () => {
+        const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', !isExpanded);
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('active');
+      });
+    }
+  </script>
 </body>
 </html>

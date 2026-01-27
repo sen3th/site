@@ -3,13 +3,14 @@ layout: base.njk
 ---
 
 <article>
-  <h1 class="header">{{ title }}</h1>
-
-  <p>
-    <time datetime="{{ date }}">
-      {{ date | date("yyyy-MM-dd") }}
-    </time>
-  </p>
+  <header>
+    <h1 class="header">{{ title }}</h1>
+    <p class="postIntro">
+      Published on <time datetime="{{ date | date }}">
+        {{ date | date }}
+      </time>
+    </p>
+  </header>
 
   {{ content | safe }}
 </article>

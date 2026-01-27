@@ -1,24 +1,23 @@
-<footer>
-
+<footer role="contentinfo">
   <div class="footer-bottom">
-    <p>© {{ site.name }}</p>
-    <div class="blinkies">
-      <img src='/content/worm-blinkie.gif' alt="worm" class="blinkie"/>
-      <img src='/content/bill-blinkie.gif' alt="bill cipher" class="blinkie"/>
+    <p class="copyright">© {{ site.name }}</p>
+    <div class="blinkies" aria-label="Decorative blinkies">
+      <img src='/content/worm-blinkie.gif' alt="" class="blinkie" aria-hidden="true"/>
+      <img src='/content/bill-blinkie.gif' alt="" class="blinkie" aria-hidden="true"/>
     </div>
-    <div class="social-links" target="_blank" rel="noopener noreferrer">
-      <a href="mailto:hi@seneth.me">
-        <img src='/content/email.gif' class="social-icon" alt="email gif"/>
+    <nav class="social-links" aria-label="Social media links">
+      <a href="mailto:hi@seneth.me" aria-label="Send me an email at hi@seneth.me">
+        <img src='/content/email.gif' class="social-icon" alt="Email"/>
       </a>
-      <a href="https://github.com/sen3th" target="_blank" rel="noopener noreferrer">
-        <img src='/content/github.gif' class="social-icon" alt="github gif"/>
+      <a href="https://github.com/sen3th" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile (opens in new window)">
+        <img src='/content/github.gif' class="social-icon" alt="GitHub"/>
       </a>
-      <a href='https://bsky.app/profile/seneth.me' target="_blank" rel="noopener noreferrer">
-        <img src='/content/bsky.png' class="social-icon" alt="bluesky"/>
+      <a href='https://bsky.app/profile/seneth.me' target="_blank" rel="noopener noreferrer" aria-label="Visit my Bluesky profile (opens in new window)">
+        <img src='/content/bsky.png' class="social-icon" alt="Bluesky"/>
       </a>
-      <a href='/feed.xml' target="_blank" rel="noopener noreferrer">
-        <img src='/content/rss-rotating.gif' class="social-icon" alt="rss"/>
+      <a href='/feed.xml' target="_blank" rel="noopener noreferrer" aria-label="Subscribe to RSS feed (opens in new window)">
+        <img src='/content/rss-rotating.gif' class="social-icon" alt="RSS Feed"/>
       </a>
-    </div>
+    </nav>
   </div>
 </footer>
