@@ -178,3 +178,8 @@ li {
     font-size: 1rem;
     color: rgb(50, 50, 90);
 }
+
+.writings{
+    padding-left: 5%;
+    padding-right: 5%;
+}
