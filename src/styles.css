@@ -183,3 +183,21 @@ li {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.writingsImage {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.imageCaption {
+    text-align: center;
+    font-family: 'IM FELL FRENCH CANON', serif;
+    font-size: 0.9rem;
+    color: rgb(50, 50, 90);
+    margin-top: 0.5rem;
+    padding-left: 30%;
+    padding-right: 30%;
+}
